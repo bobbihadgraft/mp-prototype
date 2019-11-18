@@ -67,7 +67,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 ::selection {
-  background: #EEA9B8  ;
+  background: #EECBAD   ;
   text-shadow: none;
 }
 
@@ -101,7 +101,7 @@ font-family: 'Pompiere', cursive;
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   background-color: #BCD2EE  !important;
   border-color: #BCD2EE  !important;
-  color: #EEA9B8;
+  color: #EECBAD ;
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -350,7 +350,7 @@ font-family: 'Raleway', sans-serif;
   width: 75px;
   height: 75px;
   cursor: pointer;
-  background-color: #EEA9B8;
+  background-color: #EECBAD ;
 }
 
 .portfolio-modal .close-modal:hover {
@@ -365,7 +365,7 @@ font-family: 'Raleway', sans-serif;
   margin-left: 35px;
   /* IE 9 */
   transform: rotate(45deg);
-  background-color: #EEA9B8;
+  background-color: #EECBAD ;
 }
 
 .portfolio-modal .close-modal .lr .rl {
@@ -375,7 +375,7 @@ font-family: 'Raleway', sans-serif;
   height: 75px;
   /* IE 9 */
   transform: rotate(90deg);
-  background-color: #EEA9B8;
+  background-color: #EECBAD ;
 }
 
 .timeline {
@@ -392,7 +392,7 @@ font-family: 'Raleway', sans-serif;
   width: 2px;
   margin-left: -1.5px;
   content: '';
-  background-color: #EEA9B8 ;
+  background-color: #EECBAD  ;
 }
 
 .timeline > li {
@@ -478,7 +478,7 @@ font-family: 'Raleway', sans-serif;
 
 .timeline .timeline-heading h4 {
   margin-top: 0;
-  color: #EEA9B8;
+  color: #EECBAD ;
 }
 
 .timeline .timeline-heading h4.subheading {
@@ -586,14 +586,14 @@ font-family: 'Raleway', sans-serif;
 }
 
 section#contact {
-  background-color: #EEA9B8 ;
+  background-color: #EECBAD  ;
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 section#contact .section-heading {
-  color: #EEA9B8;
+  color: #EECBAD ;
 }
 
 section#contact .form-group {
@@ -614,7 +614,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #EEA9B8;
+  border-color: #EECBAD ;
   box-shadow: none;
 }
 
@@ -626,19 +626,19 @@ font-family: 'Pompiere', cursive;
 
 section#contact :-moz-placeholder {
   font-weight: 700;
-  color: #EEA9B8;
+  color: #EECBAD ;
 font-family: 'Pompiere', cursive;
 }
 
 section#contact ::-moz-placeholder {
   font-weight: 700;
-  color: #EEA9B8;
+  color: #EECBAD ;
 font-family: 'Pompiere', cursive;
 }
 
 section#contact :-ms-input-placeholder {
   font-weight: 700;
-  color: #EEA9B8;
+  color: #EECBAD ;
 font-family: 'Pompiere', cursive;
 }
 
@@ -676,9 +676,9 @@ ul.social-buttons li a {
   color: black;
   border-radius: 100%;
   outline: none;
-  background-color: #EEA9B8;
+  background-color: #EECBAD ;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #EEA9B8;
+  background-color: #EECBAD ;
 }
