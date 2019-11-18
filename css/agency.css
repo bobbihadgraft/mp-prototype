@@ -14,15 +14,15 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #BCD2EE ;
 }
 
 a:hover {
-  color: #fed136;
+  color: #BCD2EE ;
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #BCD2EE  !important;
 }
 
 h1,
@@ -41,6 +41,7 @@ font-family: 'Raleway', sans-serif;
 
 .page-section h2.section-heading {
   font-size: 40px;
+  font-weight: 400;
   margin-top: 0;
   margin-bottom: 15px;
 }
@@ -61,12 +62,12 @@ font-family: 'Raleway', sans-serif;
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #BCD2EE ;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #EEA9B8  ;
   text-shadow: none;
 }
 
@@ -93,14 +94,14 @@ font-family: 'Pompiere', cursive;
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #BCD2EE ;
+  border-color: #BCD2EE ;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fed136 !important;
-  border-color: #fed136 !important;
-  color: white;
+  background-color: #BCD2EE  !important;
+  border-color: #BCD2EE  !important;
+  color: #EEA9B8;
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -108,7 +109,7 @@ font-family: 'Pompiere', cursive;
 }
 
 #mainNav {
-  background-color: #212529;
+  background-color: ##BCD2EE ;
 }
 
 #mainNav .navbar-toggler {
@@ -123,12 +124,12 @@ font-family: 'Pompiere', cursive;
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: #BCD2EE ;
 font-family: 'Pompiere', cursive;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fed136;
+  color: #BCD2EE ;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -141,7 +142,7 @@ font-family: 'Pompiere', cursive;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #BCD2EE ;
 }
 
 @media (min-width: 992px) {
@@ -162,7 +163,7 @@ font-family: 'Pompiere', cursive;
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #BCD2EE ;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -278,7 +279,7 @@ font-family: 'Pompiere', cursive;
   margin: 0 auto;
   padding: 25px;
   text-align: center;
-  background-color: #fed136;
+  background-color: #BCD2EE ;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -349,7 +350,7 @@ font-family: 'Raleway', sans-serif;
   width: 75px;
   height: 75px;
   cursor: pointer;
-  background-color: transparent;
+  background-color: #EEA9B8;
 }
 
 .portfolio-modal .close-modal:hover {
@@ -364,7 +365,7 @@ font-family: 'Raleway', sans-serif;
   margin-left: 35px;
   /* IE 9 */
   transform: rotate(45deg);
-  background-color: #212529;
+  background-color: #EEA9B8;
 }
 
 .portfolio-modal .close-modal .lr .rl {
@@ -374,7 +375,7 @@ font-family: 'Raleway', sans-serif;
   height: 75px;
   /* IE 9 */
   transform: rotate(90deg);
-  background-color: #212529;
+  background-color: #EEA9B8;
 }
 
 .timeline {
@@ -391,7 +392,7 @@ font-family: 'Raleway', sans-serif;
   width: 2px;
   margin-left: -1.5px;
   content: '';
-  background-color: #e9ecef;
+  background-color: #EEA9B8 ;
 }
 
 .timeline > li {
@@ -440,9 +441,9 @@ font-family: 'Raleway', sans-serif;
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;
+  border: 7px solid #BCD2EE ;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #BCD2EE ;
 }
 
 .timeline > li .timeline-image h4 {
@@ -477,7 +478,7 @@ font-family: 'Raleway', sans-serif;
 
 .timeline .timeline-heading h4 {
   margin-top: 0;
-  color: inherit;
+  color: #EEA9B8;
 }
 
 .timeline .timeline-heading h4.subheading {
@@ -585,14 +586,14 @@ font-family: 'Raleway', sans-serif;
 }
 
 section#contact {
-  background-color: #212529;
+  background-color: #EEA9B8 ;
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 section#contact .section-heading {
-  color: #fff;
+  color: #EEA9B8;
 }
 
 section#contact .form-group {
@@ -613,31 +614,31 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: #EEA9B8;
   box-shadow: none;
 }
 
 section#contact ::-webkit-input-placeholder {
   font-weight: 700;
-  color: #ced4da;
+  color: #BCD2EE ;
 font-family: 'Pompiere', cursive;
 }
 
 section#contact :-moz-placeholder {
   font-weight: 700;
-  color: #ced4da;
+  color: #EEA9B8;
 font-family: 'Pompiere', cursive;
 }
 
 section#contact ::-moz-placeholder {
   font-weight: 700;
-  color: #ced4da;
+  color: #EEA9B8;
 font-family: 'Pompiere', cursive;
 }
 
 section#contact :-ms-input-placeholder {
   font-weight: 700;
-  color: #ced4da;
+  color: #EEA9B8;
 font-family: 'Pompiere', cursive;
 }
 
@@ -672,12 +673,12 @@ ul.social-buttons li a {
   width: 50px;
   height: 50px;
   transition: all 0.3s;
-  color: white;
+  color: black;
   border-radius: 100%;
   outline: none;
-  background-color: #212529;
+  background-color: #EEA9B8;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #EEA9B8;
 }
