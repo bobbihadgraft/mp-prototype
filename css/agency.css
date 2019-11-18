@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: #fec503;
+  color: #fed136;
 }
 
 .text-primary {
@@ -98,8 +98,8 @@ font-family: 'Pompiere', cursive;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #fed136 !important;
+  border-color: #fed136 !important;
   color: white;
 }
 
@@ -128,7 +128,7 @@ font-family: 'Pompiere', cursive;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #fed136;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -278,7 +278,7 @@ font-family: 'Pompiere', cursive;
   margin: 0 auto;
   padding: 25px;
   text-align: center;
-  background-color: #fff;
+  background-color: #fed136;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
