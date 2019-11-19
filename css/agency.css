@@ -6,7 +6,7 @@
 
 body {
   overflow-x: hidden;
-font-family: 'Raleway', sans-serif;
+font-family: 'Overpass', sans-serif;
 }
 
 p {
@@ -14,15 +14,15 @@ p {
 }
 
 a {
-  color: #BCD2EE ;
+  color: #FF0000 ;
 }
 
 a:hover {
-  color: #BCD2EE ;
+  color: #FF0000 ;
 }
 
 .text-primary {
-  color: #BCD2EE  !important;
+  color: #FF0000  !important;
 }
 
 h1,
@@ -32,7 +32,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-font-family: 'Raleway', sans-serif;
+font-family: 'Overpass', sans-serif;
 }
 
 .page-section {
@@ -52,7 +52,7 @@ font-family: 'Raleway', sans-serif;
   font-style: italic;
   margin-bottom: 75px;
   text-transform: none;
-font-family: 'Raleway', sans-serif;
+font-family: 'Overpass', sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -62,12 +62,12 @@ font-family: 'Raleway', sans-serif;
 }
 
 ::-moz-selection {
-  background: #BCD2EE ;
+  background: #FF0000 ;
   text-shadow: none;
 }
 
 ::selection {
-  background: #EECBAD   ;
+  background: #000000   ;
   text-shadow: none;
 }
 
@@ -84,7 +84,7 @@ img::-moz-selection {
 }
 
 .btn {
-font-family: 'Pompiere', cursive;
+font-family: 'Abril Fatface', cursive;
   font-weight: 700;
 }
 
@@ -94,14 +94,14 @@ font-family: 'Pompiere', cursive;
 }
 
 .btn-primary {
-  background-color: #BCD2EE ;
-  border-color: #BCD2EE ;
+  background-color: #FF0000 ;
+  border-color: #FF0000 ;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #BCD2EE  !important;
-  border-color: #BCD2EE  !important;
-  color: #EECBAD ;
+  background-color: #FF0000  !important;
+  border-color: #FF0000  !important;
+  color: #000000  ;
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -109,7 +109,7 @@ font-family: 'Pompiere', cursive;
 }
 
 #mainNav {
-  background-color: ##BCD2EE ;
+  background-color: ##FF0000 ;
 }
 
 #mainNav .navbar-toggler {
@@ -120,16 +120,16 @@ font-family: 'Pompiere', cursive;
   color: white;
   border: 0;
   background-color: #fed136;
-font-family: 'Pompiere', cursive;
+font-family: 'Abril Fatface', cursive;
 }
 
 #mainNav .navbar-brand {
-  color: #BCD2EE ;
-font-family: 'Pompiere', cursive;
+  color: #FF0000 ;
+font-family: 'Abril Fatface', cursive;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #BCD2EE ;
+  color: #FF0000 ;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -138,11 +138,11 @@ font-family: 'Pompiere', cursive;
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: white;
-font-family: 'Pompiere', cursive;
+font-family: 'Abril Fatface', cursive;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #BCD2EE ;
+  color: #FF0000 ;
 }
 
 @media (min-width: 992px) {
@@ -163,7 +163,7 @@ font-family: 'Pompiere', cursive;
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #BCD2EE ;
+    background-color: #FF0000 ;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -191,7 +191,7 @@ header.masthead .intro-text .intro-lead-in {
   font-style: italic;
   line-height: 22px;
   margin-bottom: 25px;
-font-family: 'Raleway', sans-serif;
+font-family: 'Overpass', sans-serif;
 }
 
 header.masthead .intro-text .intro-heading {
@@ -199,7 +199,7 @@ header.masthead .intro-text .intro-heading {
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
-font-family: 'Pompiere', cursive;
+font-family: 'Abril Fatface', cursive;
 }
 
 @media (min-width: 768px) {
@@ -212,14 +212,14 @@ font-family: 'Pompiere', cursive;
     font-style: italic;
     line-height: 40px;
     margin-bottom: 25px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Overpass', sans-serif;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
     font-weight: 700;
     line-height: 75px;
     margin-bottom: 50px;
-font-family: 'Pompiere', cursive;
+font-family: 'Abril Fatface', cursive;
   }
 }
 
@@ -279,7 +279,7 @@ font-family: 'Pompiere', cursive;
   margin: 0 auto;
   padding: 25px;
   text-align: center;
-  background-color: #BCD2EE ;
+  background-color: #FF0000 ;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -291,7 +291,7 @@ font-family: 'Pompiere', cursive;
   font-size: 16px;
   font-style: italic;
   margin: 0;
-font-family: 'Raleway', sans-serif;
+font-family: 'Overpass', sans-serif;
 }
 
 #portfolio * {
@@ -327,7 +327,7 @@ font-family: 'Raleway', sans-serif;
   font-size: 16px;
   font-style: italic;
   margin: 20px 0 30px;
-font-family: 'Raleway', sans-serif;
+font-family: 'Overpass', sans-serif;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
@@ -350,7 +350,7 @@ font-family: 'Raleway', sans-serif;
   width: 75px;
   height: 75px;
   cursor: pointer;
-  background-color: #EECBAD ;
+  background-color: #000000  ;
 }
 
 .portfolio-modal .close-modal:hover {
@@ -365,7 +365,7 @@ font-family: 'Raleway', sans-serif;
   margin-left: 35px;
   /* IE 9 */
   transform: rotate(45deg);
-  background-color: #EECBAD ;
+  background-color: #000000  ;
 }
 
 .portfolio-modal .close-modal .lr .rl {
@@ -375,7 +375,7 @@ font-family: 'Raleway', sans-serif;
   height: 75px;
   /* IE 9 */
   transform: rotate(90deg);
-  background-color: #EECBAD ;
+  background-color: #000000  ;
 }
 
 .timeline {
@@ -392,7 +392,7 @@ font-family: 'Raleway', sans-serif;
   width: 2px;
   margin-left: -1.5px;
   content: '';
-  background-color: #EECBAD  ;
+  background-color: #000000   ;
 }
 
 .timeline > li {
@@ -441,9 +441,9 @@ font-family: 'Raleway', sans-serif;
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #BCD2EE ;
+  border: 7px solid #FF0000 ;
   border-radius: 100%;
-  background-color: #BCD2EE ;
+  background-color: #FF0000 ;
 }
 
 .timeline > li .timeline-image h4 {
@@ -478,7 +478,7 @@ font-family: 'Raleway', sans-serif;
 
 .timeline .timeline-heading h4 {
   margin-top: 0;
-  color: #EECBAD ;
+  color: #000000  ;
 }
 
 .timeline .timeline-heading h4.subheading {
@@ -586,14 +586,14 @@ font-family: 'Raleway', sans-serif;
 }
 
 section#contact {
-  background-color: #EECBAD  ;
-  background-image: url("../img/map-image.png");
+  background-color: #000000   ;
+  background-image: url("https://source.unsplash.com/random/700x400");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 section#contact .section-heading {
-  color: #EECBAD ;
+  color: #000000  ;
 }
 
 section#contact .form-group {
@@ -614,32 +614,32 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #EECBAD ;
+  border-color: #000000  ;
   box-shadow: none;
 }
 
 section#contact ::-webkit-input-placeholder {
   font-weight: 700;
-  color: #BCD2EE ;
-font-family: 'Pompiere', cursive;
+  color: #FF0000 ;
+font-family: 'Abril Fatface', cursive;
 }
 
 section#contact :-moz-placeholder {
   font-weight: 700;
-  color: #EECBAD ;
-font-family: 'Pompiere', cursive;
+  color: #000000  ;
+font-family: 'Abril Fatface', cursive;
 }
 
 section#contact ::-moz-placeholder {
   font-weight: 700;
-  color: #EECBAD ;
-font-family: 'Pompiere', cursive;
+  color: #000000  ;
+font-family: 'Abril Fatface', cursive;
 }
 
 section#contact :-ms-input-placeholder {
   font-weight: 700;
-  color: #EECBAD ;
-font-family: 'Pompiere', cursive;
+  color: #000000  ;
+font-family: 'Abril Fatface', cursive;
 }
 
 .footer {
@@ -651,7 +651,7 @@ font-family: 'Pompiere', cursive;
   font-size: 90%;
   line-height: 40px;
   text-transform: none;
-font-family: 'Pompiere', cursive;
+font-family: 'Abril Fatface', cursive;
 }
 
 .footer ul.quicklinks {
@@ -659,7 +659,7 @@ font-family: 'Pompiere', cursive;
   line-height: 40px;
   margin-bottom: 0;
   text-transform: none;
-font-family: 'Pompiere', cursive;
+font-family: 'Abril Fatface', cursive;
 }
 
 ul.social-buttons {
@@ -676,9 +676,9 @@ ul.social-buttons li a {
   color: black;
   border-radius: 100%;
   outline: none;
-  background-color: #EECBAD ;
+  background-color: #000000  ;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #EECBAD ;
+  background-color: #000000  ;
 }
