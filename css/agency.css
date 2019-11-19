@@ -40,14 +40,14 @@ font-family: 'Overpass', sans-serif;
 }
 
 .page-section h2.section-heading {
-  font-size: 40px;
+  font-size: 75px;
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 15px;
 }
 
 .page-section h3.section-subheading {
-  font-size: 16px;
+  font-size: 75px;
   font-weight: 400;
   font-style: italic;
   margin-bottom: 75px;
@@ -71,16 +71,14 @@ font-family: 'Overpass', sans-serif;
   text-shadow: none;
 }
 
-img::-moz-selection {
-  background: transparent;
-}
+img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
 
 img::selection {
-  background: transparent;
+  background: black;
 }
 
 img::-moz-selection {
-  background: transparent;
+  background: black;
 }
 
 .btn {
@@ -89,7 +87,7 @@ font-family: 'Abril Fatface', cursive;
 }
 
 .btn-xl {
-  font-size: 18px;
+  font-size: 30px;
   padding: 20px 40px;
 }
 
@@ -109,17 +107,17 @@ font-family: 'Abril Fatface', cursive;
 }
 
 #mainNav {
-  background-color: ##FF0000 ;
+  background-color: #FF0000 ;
 }
 
 #mainNav .navbar-toggler {
-  font-size: 12px;
+  font-size: 30px;
   right: 0;
   padding: 13px;
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
+  background-color: #FF0000;
 font-family: 'Abril Fatface', cursive;
 }
 
@@ -187,7 +185,7 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
-  font-size: 22px;
+  font-size: 30px;
   font-style: italic;
   line-height: 22px;
   margin-bottom: 25px;
@@ -195,7 +193,7 @@ font-family: 'Overpass', sans-serif;
 }
 
 header.masthead .intro-text .intro-heading {
-  font-size: 50px;
+  font-size: 75px;
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
@@ -208,7 +206,7 @@ font-family: 'Abril Fatface', cursive;
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 40px;
+    font-size: 100px;
     font-style: italic;
     line-height: 40px;
     margin-bottom: 25px;
@@ -247,7 +245,7 @@ font-family: 'Abril Fatface', cursive;
   height: 100%;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: black;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
