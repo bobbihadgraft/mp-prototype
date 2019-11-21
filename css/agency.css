@@ -4,28 +4,41 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
+html {
+   background-color:black;
+ }
+
 body {
   overflow-x: hidden;
 font-family: 'Overpass', sans-serif;
+color: #b1006a;
 }
 
 p {
+  color: red;
   line-height: 1.75;
 }
 
 a {
-  color: #FF0000 ;
+  color: #7986CB  ;
 }
 
 a:hover {
-  color: #FF0000 ;
+  color: #b1006a ;
 }
 
 .text-primary {
-  color: #FF0000  !important;
+  color: #7986CB   !important;
 }
 
-h1,
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+}
+
 h2,
 h3,
 h4,
@@ -33,10 +46,12 @@ h5,
 h6 {
   font-weight: 700;
 font-family: 'Overpass', sans-serif;
+color: black;
 }
 
 .page-section {
   padding: 100px 0;
+  color: #b1006a;
 }
 
 .page-section h2.section-heading {
@@ -44,6 +59,7 @@ font-family: 'Overpass', sans-serif;
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 15px;
+  color: #b1006a;
 }
 
 .page-section h3.section-subheading {
@@ -53,6 +69,7 @@ font-family: 'Overpass', sans-serif;
   margin-bottom: 75px;
   text-transform: none;
 font-family: 'Overpass', sans-serif;
+color: #b1006a;
 }
 
 @media (min-width: 768px) {
@@ -62,7 +79,7 @@ font-family: 'Overpass', sans-serif;
 }
 
 ::-moz-selection {
-  background: #FF0000 ;
+  background: #7986CB  ;
   text-shadow: none;
 }
 
@@ -71,7 +88,10 @@ font-family: 'Overpass', sans-serif;
   text-shadow: none;
 }
 
-img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
+img  src="img" alt="header-xmas.jpg"> {
+  transform: scaleX(-1);
+}
+
 
 img::selection {
   background: black;
@@ -84,6 +104,7 @@ img::-moz-selection {
 .btn {
 font-family: 'Abril Fatface', cursive;
   font-weight: 700;
+  color: #b1006a;
 }
 
 .btn-xl {
@@ -92,13 +113,13 @@ font-family: 'Abril Fatface', cursive;
 }
 
 .btn-primary {
-  background-color: #FF0000 ;
-  border-color: #FF0000 ;
+  background-color: #7986CB  ;
+  border-color: #7986CB  ;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #FF0000  !important;
-  border-color: #FF0000  !important;
+  background-color: black  !important;
+  border-color: black  !important;
   color: #000000  ;
 }
 
@@ -107,7 +128,7 @@ font-family: 'Abril Fatface', cursive;
 }
 
 #mainNav {
-  background-color: #FF0000 ;
+  background-color: ##b1006a ;
 }
 
 #mainNav .navbar-toggler {
@@ -115,19 +136,19 @@ font-family: 'Abril Fatface', cursive;
   right: 0;
   padding: 13px;
   text-transform: uppercase;
-  color: white;
+  color:#b1006a;
   border: 0;
-  background-color: #FF0000;
+  background-color: #7986CB ;
 font-family: 'Abril Fatface', cursive;
 }
 
 #mainNav .navbar-brand {
-  color: #FF0000 ;
+  color: #7986CB  ;
 font-family: 'Abril Fatface', cursive;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #FF0000 ;
+  color: #7986CB  ;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -135,12 +156,12 @@ font-family: 'Abril Fatface', cursive;
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: white;
+  color: #b1006a;
 font-family: 'Abril Fatface', cursive;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #FF0000 ;
+  color: #7986CB  ;
 }
 
 @media (min-width: 992px) {
@@ -161,18 +182,19 @@ font-family: 'Abril Fatface', cursive;
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #FF0000 ;
+    background-color: #7986CB  ;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
     padding: 12px 0;
+    color: #b1006a;
   }
 }
 
 header.masthead {
   text-align: center;
-  color: white;
-  background-image: url("../img/header-bg.jpg");
+  color: #b1006a;
+  background-image: url("../img/header-xmas.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -182,6 +204,7 @@ header.masthead {
 header.masthead .intro-text {
   padding-top: 150px;
   padding-bottom: 100px;
+  color: #b1006a;
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -190,6 +213,7 @@ header.masthead .intro-text .intro-lead-in {
   line-height: 22px;
   margin-bottom: 25px;
 font-family: 'Overpass', sans-serif;
+color: #b1006a;
 }
 
 header.masthead .intro-text .intro-heading {
@@ -197,6 +221,7 @@ header.masthead .intro-text .intro-heading {
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
+  color: #b1006a;
 font-family: 'Abril Fatface', cursive;
 }
 
@@ -224,6 +249,7 @@ font-family: 'Abril Fatface', cursive;
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+  color: #b1006a;
 }
 
 #portfolio .portfolio-item {
@@ -260,7 +286,7 @@ font-family: 'Abril Fatface', cursive;
   height: 20px;
   margin-top: -12px;
   text-align: center;
-  color: white;
+  color: #b1006a;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
@@ -277,7 +303,7 @@ font-family: 'Abril Fatface', cursive;
   margin: 0 auto;
   padding: 25px;
   text-align: center;
-  background-color: #FF0000 ;
+  background-color: #7986CB  ;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -438,10 +464,10 @@ font-family: 'Overpass', sans-serif;
   height: 80px;
   margin-left: 0;
   text-align: center;
-  color: white;
-  border: 7px solid #FF0000 ;
+  color: #b1006a;
+  border: 7px solid #7986CB  ;
   border-radius: 100%;
-  background-color: #FF0000 ;
+  background-color: #7986CB  ;
 }
 
 .timeline > li .timeline-image h4 {
@@ -618,7 +644,7 @@ section#contact .form-control:focus {
 
 section#contact ::-webkit-input-placeholder {
   font-weight: 700;
-  color: #FF0000 ;
+  color: #7986CB  ;
 font-family: 'Abril Fatface', cursive;
 }
 
@@ -643,6 +669,7 @@ font-family: 'Abril Fatface', cursive;
 .footer {
   padding: 25px 0;
   text-align: center;
+  color: #b1006a;
 }
 
 .footer span.copyright {
